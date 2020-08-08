@@ -38,7 +38,7 @@ import (
 	"testing"
 )
 
-const binaryValue = string(128)
+const binaryValue = string(rune(128))
 
 func TestEncodeKeyValue(t *testing.T) {
 	for _, test := range []struct {
